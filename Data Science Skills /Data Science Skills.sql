@@ -15,6 +15,7 @@ insert into candidates values
     (234, "SQL Server"),
     (345, "Python"),
     (345, "Tableau");
+
 SELECT candidate_id FROM candidates
 WHERE skill IN ("Python","Tableau","PostgreSQL")
 group by candidate_id
